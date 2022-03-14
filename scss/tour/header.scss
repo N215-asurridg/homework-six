@@ -1,0 +1,22 @@
+.header {
+  max-width: $content-width;
+  height: 200px;
+  background-color: aqua;
+  margin-top: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header-text {
+    text-align: center;
+    color: $sitewhite;
+    font-family: Nova;
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,894 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-black.svg);
+}
+nav .logo-white-text {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.svg);
+}
+nav .links a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Gils;
+}
+nav .links .vl {
+  border-left: 1px solid #79addc;
+  height: 21px;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -85px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-text {
+  text-align: center;
+}
+.banner .banner-text .travel-fly {
+  color: white;
+  font-family: Nova;
+  font-size: 50px;
+}
+.banner .banner-text .bannerparagraph {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: Gils;
+  font-size: 20px;
+}
+.banner .banner-text .read-more {
+  height: 40px;
+  width: 121px;
+  background-color: #79addc;
+  margin: 0 auto;
+}
+.banner .banner-text .read-more h3 {
+  font-size: 15px;
+  color: white;
+  padding-top: 12px;
+  font-family: Gils;
+}
+
+.form {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form h1 {
+  font-family: Nova;
+  font-size: 60px;
+}
+.form .topboxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form .topboxes .name-country-input {
+  width: 344px;
+  height: 58px;
+  border: 3px solid #79addc;
+  padding: 0 0 0 10px;
+}
+.form .topboxes .email-hotel-input {
+  width: 453px;
+  height: 58px;
+  border: 3px solid #79addc;
+  padding: 0 0 0 10px;
+}
+.form .check-in-out .in-out {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form .check-in-out .in-out label {
+  font-family: Gils;
+  font-size: 18px;
+}
+.form .check-in-out .in-out .in-out-input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+.form .check-in-out .in-out .in-out-input-icon input {
+  width: 698px;
+  height: 58px;
+  border: 3px solid #79addc;
+  padding: 0 0 0 10px;
+}
+.form .check-in-out .in-out .in-out-input-icon i {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  color: #79addc;
+}
+.form .acr-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form .adult-child-room {
+  width: 206px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form .adult-child-room label {
+  font-family: Gils;
+  font-size: 18px;
+}
+.form .adult-child-room .adult-input-icon {
+  width: 103px;
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.form .adult-child-room .adult-input-icon input {
+  width: 103px;
+  height: 58px;
+  border: 3px solid #79addc;
+  padding: 0 0 0 10px;
+}
+.form .adult-child-room .adult-input-icon i {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  color: #79addc;
+}
+.form .messagebox {
+  margin-bottom: 37px;
+}
+.form .messagebox input {
+  width: 818px;
+  height: 192px;
+  border: 3px solid #79addc;
+  padding: 0 0 0 10px;
+}
+.form .submit {
+  max-width: 813px;
+  height: 60px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.form .submit h3 {
+  padding-top: 20px;
+  color: white;
+  font-family: Gils;
+  font-size: 15px;
+}
+
+.locations {
+  max-width: 818px;
+  min-height: 304px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -43px;
+  margin-bottom: 40px;
+}
+.locations .israel {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .israel .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.locations .israel .israeltext h2 {
+  font-size: 25px;
+}
+.locations .israel .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.locations .israel .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.locations .usa {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .usa .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.locations .usa .israeltext h2 {
+  font-size: 25px;
+}
+.locations .usa .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.locations .usa .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.locations .australia {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .australia .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.locations .australia .israeltext h2 {
+  font-size: 25px;
+}
+.locations .australia .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.locations .australia .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+.header {
+  max-width: 980px;
+  height: 200px;
+  background-color: aqua;
+  margin-top: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-text {
+  text-align: center;
+  color: white;
+  font-family: Nova;
+  font-size: 60px;
+}
+
+.tour-page-locations {
+  max-width: 818px;
+  min-height: 304px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+.tour-page-locations .israel {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .israel .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .israel .israeltext h2 {
+  font-size: 25px;
+}
+.tour-page-locations .israel .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .israel .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .usa {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .usa .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .usa .israeltext h2 {
+  font-size: 25px;
+}
+.tour-page-locations .usa .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .usa .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .australia {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .australia .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .australia .israeltext h2 {
+  font-size: 25px;
+}
+.tour-page-locations .australia .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .australia .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .new-zealand {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .new-zealand .new-zealand-text {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 20px;
+}
+.tour-page-locations .new-zealand .new-zealand-text h2 {
+  font-size: 25px;
+}
+.tour-page-locations .new-zealand .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .new-zealand .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .france {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .france .france-text {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .france .france-text h2 {
+  font-size: 25px;
+}
+.tour-page-locations .france .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .france .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .egypt {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .egypt .egypt-text {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .egypt .egypt-text h2 {
+  font-size: 25px;
+}
+.tour-page-locations .egypt .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .egypt .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .japan {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .japan .japan-text {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .japan .japan-text h2 {
+  font-size: 25px;
+}
+.tour-page-locations .japan .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .japan .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .canada {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .canada .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .canada .israeltext h2 {
+  font-size: 25px;
+}
+.tour-page-locations .canada .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .canada .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+.tour-page-locations .uae {
+  width: 236px;
+  height: 304px;
+  background-color: bisque;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-page-locations .uae .israeltext {
+  width: 130px;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 47px;
+  margin-bottom: 56px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.tour-page-locations .uae .israeltext h2 {
+  font-size: 25px;
+}
+.tour-page-locations .uae .learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tour-page-locations .uae .learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+.tour-page-locations-2 {
+  max-width: 818px;
+  min-height: 304px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+
+.footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+.footer-content .footer-text {
+  font-size: 12px;
+  color: white;
+  font-family: Gils;
+  margin-top: 20px;
+}
+.footer-content .footericons {
+  width: 100px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-content .footericons i {
+  font-size: 25px;
+  color: white;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header {
+  margin-bottom: 107px;
+}
+.about .about-header h1 {
+  margin-bottom: 5px;
+  font-family: Nova;
+  font-size: 60px;
+}
+.about .about-header hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: Gils;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-family: Nova;
+  font-size: 40px;
+}
+.about .about-client-quotes hr {
+  border-top: solid 1px black;
+  width: 255px;
+  margin-bottom: 36px;
+}
+.about .about-client-quotes .client-photo-paragraph {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-photo-paragraph .client-photo {
+  width: 250px;
+  height: 150px;
+  background-color: beige;
+  overflow: hidden;
+}
+.about .about-client-quotes .client-photo-paragraph .client-photo img {
+  width: 100%;
+}
+.about .about-client-quotes .client-photo-paragraph .client-paragraph {
+  margin-left: 21px;
+  max-width: 385px;
+  min-height: 102px;
+  margin-bottom: 20px;
+  font-family: Gils;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-photo-paragraph .name-tag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Nova;
+  font-size: 20px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+
+.footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+.footer-content .footer-text {
+  font-size: 12px;
+  color: white;
+  font-family: Gils;
+  margin-top: 20px;
+}
+.footer-content .footericons {
+  width: 100px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-content .footericons i {
+  font-size: 25px;
+  color: white;
+}
+
+@font-face {
+  font-family: Nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: Gils;
+  src: url(../css/fonts/GillSans.ttc);
+}
+
+/*# sourceMappingURL=styles.css.map */

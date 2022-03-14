@@ -1,0 +1,70 @@
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+
+  .about-header {
+    margin-bottom: 107px;
+
+    h1 {
+      margin-bottom: 5px;
+      font-family: Nova;
+      font-size: 60px;
+    }
+    hr {
+      border-top: solid 1px black;
+      width: 171px;
+      margin-bottom: 36px;
+    }
+    p {
+      font-family: Gils;
+      font-size: 16px;
+    }
+  }
+  .about-client-quotes {
+    .client-quote-title {
+      font-family: Nova;
+      font-size: 40px;
+    }
+    hr {
+      border-top: solid 1px black;
+      width: 255px;
+      margin-bottom: 36px;
+    }
+    .client-photo-paragraph {
+      max-width: 676px;
+      min-height: 150px;
+      // background-color: antiquewhite;
+      display: flex;
+      position: relative;
+      margin-bottom: 37px;
+
+      .client-photo {
+        width: 250px;
+        height: 150px;
+        background-color: beige;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .client-paragraph {
+        margin-left: 21px;
+        // background-color: bisque;
+        max-width: 385px;
+        min-height: 102px;
+        margin-bottom: 20px;
+        font-family: Gils;
+        font-size: 16px;
+      }
+      .name-tag {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-family: Nova;
+        font-size: 20px;
+      }
+    }
+  }
+}

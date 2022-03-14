@@ -1,0 +1,11 @@
+.tour-box-container {
+  max-width: $content-width;
+  height: 304px;
+  background-color: antiquewhite;
+
+  .tour-box {
+    width: 236px;
+    height: 304px;
+    background-color: azure;
+  }
+}
