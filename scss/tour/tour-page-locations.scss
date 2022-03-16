@@ -369,3 +369,11 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .tour-page-locations {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
