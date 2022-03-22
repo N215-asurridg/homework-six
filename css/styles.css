@@ -864,6 +864,878 @@ nav .links span {
     min-height: 940px;
   }
 }
+.tour-header-2 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-2 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-2 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-us1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-us2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-us3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-3 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-3 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-3 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-aus1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-aus2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-aus3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-4 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-4 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-4 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-nz1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-nz2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-nz3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-5 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-5 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-5 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-fra1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-fra2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-fra3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-6 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-6 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-6 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-eg1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-eg2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-eg3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-7 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-7 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-7 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-jap1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-jap2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-jap3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-8 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-8 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-8 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-can1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-can2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-can3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
+.tour-header-9 {
+  max-width: 980px;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.tour-header-9 .tour-text {
+  position: absolute;
+  font-size: 80px;
+  top: 30px;
+  left: 30px;
+  font-family: Nova;
+}
+.tour-header-9 .tour-price-text {
+  position: absolute;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-style: italic;
+  right: 1px;
+  bottom: -5px;
+  font-family: Nova;
+}
+
+.tour-image-box {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tour-image-box .tour-image-uae1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-uae2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.tour-image-box .tour-image-uae3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+}
+.tour-text-box .day-1 {
+  font-family: Nova;
+  font-size: 60px;
+  font-style: italic;
+}
+.tour-text-box hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.tour-text-box .day-1-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16;
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+.learnmore h3 {
+  padding-top: 16px;
+  color: white;
+  font-family: Gils;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
 footer {
   height: 100px;
   background-color: #79addc;

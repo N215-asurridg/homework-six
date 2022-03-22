@@ -1,0 +1,114 @@
+.tour-header-9 {
+  max-width: $content-width;
+  min-height: 413px;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+
+  .tour-text {
+    position: absolute;
+    font-size: 80px;
+    top: 30px;
+    left: 30px;
+    font-family: Nova;
+  }
+
+  .tour-price-text {
+    position: absolute;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-style: italic;
+    right: 1px;
+    bottom: -5px;
+    font-family: Nova;
+  }
+}
+
+.tour-image-box {
+  max-width: $content-width;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .tour-image-uae1 {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .tour-image-uae2 {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .tour-image-uae3 {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
+
+.tour-text-box {
+  color: black;
+  margin-bottom: 80px;
+  .day-1 {
+    font-family: Nova;
+    font-size: 60px;
+    font-style: italic;
+  }
+  hr {
+    border-top: solid 1px black;
+    width: 171px;
+    margin-bottom: 36px;
+  }
+  .day-1-paragraph {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16;
+  }
+}
+
+.learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: $siteblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 112px;
+  h3 {
+    padding-top: 16px;
+    color: white;
+    font-family: Gils;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-image-box {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
